@@ -1,0 +1,371 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PayNav Assignment</title>
+    <!-- CSS only -->
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css"
+rel="stylesheet" integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" 
+crossorigin="anonymous">
+<link rel="stylesheet" href="./style.css">
+<link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    
+</head>
+<body class="text-light">
+    <div class="container d-flex flex-column justify-content-center align-items-center mt-3">
+        <h3 class="text-info">EARN</h3>
+
+        <h1>
+            Shopping is Investing
+        </h1>
+    
+
+
+
+        <div class="slider">
+
+
+
+            <div class="slide-container">
+                <div class="slide-btn">
+                    <div class="btn btn-light">
+                        <img height="50rem"  src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTCU1lqt2BVdwDnhdGAAZXhyfiCzL0fsls5Lw&usqp=CAU" 
+                        alt="swiggy logo">
+                        <div class="name d-flex flex-column p-0">
+                            <h5>swiggy</h5>
+                            <span class="m-0 text text-info">save upto 15%</span>
+                        </div>
+                    
+                    </div>
+                </div>
+                <div class="slide-btn">
+                    <div class="btn btn-light">
+                        <img height="50rem"  src="https://mir-s3-cdn-cf.behance.net/project_modules/max_1200/5f3d81106163451.5f897528aa41a.jpg" 
+                        alt="Flipkart logo">
+                        <div class="name d-flex flex-column p-0">
+                            <h5>flipkart</h5>
+                            <span class="m-0 text-info">save upto 14%</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="slide-btn">
+                    <div class="btn btn-light">
+                        <img height="50rem"  src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT7neF7O42RGwWGTV2P2ril_dP-jYygRhNvqA&usqp=CAU" 
+                        alt="BMS logo">
+                        <div class="name d-flex flex-column p-0">
+                            <h5>bookMyShow</h5>
+                            <span class="m-0 text-info">save upto 15%</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="slide-btn">
+                    <div class="btn btn-light">
+                        <img height="40rem" width="50rem" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSu415RnlUVDnaHJUHhNvt44NsHW8PLAlFdsA&usqp=CAU" 
+                        alt="Myntra logo">
+                        <div class="name d-flex flex-column p-0">
+                            <h5>Myntra</h5>
+                            <span class="m-0 text-info">save upto 15%</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="slide-btn">
+                    <div class="btn btn-light">
+                        <img height="50rem" width="50rem" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ0wFgdFnnn-wx6Rnlso3G94Twd3j5tHvfUkA&usqp=CAU" 
+                        alt="BB logo">
+                        <div class="name d-flex flex-column p-0">
+                            <h5>Big Basket</h5>
+                            <span class="m-0 text-info">save upto 15%</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="slide-btn">
+                    <div class="btn btn-light">
+                        <img height="50rem" width="60rem" src="data:image/jpeg;base64,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" 
+                        alt="Flipkart logo">
+                        <div class="name d-flex flex-column p-0">
+                            <h5>zivame</h5>
+                            <span class="m-0 text-info">save upto 15%</span>
+                        </div>
+                    </div>
+                </div>
+            <!-- Repeat for infinity -->
+            <div class="slide-btn">
+                    <div class="btn btn-light">
+                        <img height="50rem"  src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTCU1lqt2BVdwDnhdGAAZXhyfiCzL0fsls5Lw&usqp=CAU" 
+                        alt="swiggy logo">
+                        <div class="name d-flex flex-column p-0">
+                            <h5>swiggy</h5>
+                            <span class="m-0 text-info">save upto 15%</span>
+                        </div>
+                    
+                    </div>
+                </div>
+                <div class="slide-btn">
+                    <div class="btn btn-light">
+                        <img height="50rem"  src="https://mir-s3-cdn-cf.behance.net/project_modules/max_1200/5f3d81106163451.5f897528aa41a.jpg" 
+                        alt="Flipkart logo">
+                        <div class="name d-flex flex-column p-0">
+                            <h5>flipkart</h5>
+                            <span class="m-0 text-info">save upto 14%</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="slide-btn">
+                    <div class="btn btn-light">
+                        <img height="50rem"  src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT7neF7O42RGwWGTV2P2ril_dP-jYygRhNvqA&usqp=CAU" 
+                        alt="BMS logo">
+                        <div class="name d-flex flex-column p-0">
+                            <h5>bookMyShow</h5>
+                            <span class="m-0 text-info">save upto 15%</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="slide-btn">
+                    <div class="btn btn-light">
+                        <img height="40rem" width="50rem" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSu415RnlUVDnaHJUHhNvt44NsHW8PLAlFdsA&usqp=CAU" 
+                        alt="Myntra logo">
+                        <div class="name d-flex flex-column p-0">
+                            <h5>Myntra</h5>
+                            <span class="m-0 text-info">save upto 15%</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="slide-btn">
+                    <div class="btn btn-light">
+                        <img height="50rem" width="50rem" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ0wFgdFnnn-wx6Rnlso3G94Twd3j5tHvfUkA&usqp=CAU" 
+                        alt="BB logo">
+                        <div class="name d-flex flex-column p-0">
+                            <h5>Big Basket</h5>
+                            <span class="m-0 text-info">save upto 15%</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="slide-btn">
+                    <div class="btn btn-light">
+                        <img height="50rem" width="60rem" src="data:image/jpeg;base64,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" 
+                        alt="Flipkart logo">
+                        <div class="name d-flex flex-column p-0">
+                            <h5>zivame</h5>
+                            <span class="m-0 text-info">save upto 15%</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="slide-btn">
+                    <div class="btn btn-light">
+                        <img height="50rem"  src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTCU1lqt2BVdwDnhdGAAZXhyfiCzL0fsls5Lw&usqp=CAU" 
+                        alt="swiggy logo">
+                        <div class="name d-flex flex-column p-0">
+                            <h5>swiggy</h5>
+                            <span class="m-0 text-info">save upto 15%</span>
+                        </div>
+                    
+                    </div>
+                </div>
+                <div class="slide-btn">
+                    <div class="btn btn-light">
+                        <img height="50rem"  src="https://mir-s3-cdn-cf.behance.net/project_modules/max_1200/5f3d81106163451.5f897528aa41a.jpg" 
+                        alt="Flipkart logo">
+                        <div class="name d-flex flex-column p-0">
+                            <h5>flipkart</h5>
+                            <span class="m-0 text-info">save upto 14%</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="slide-btn">
+                    <div class="btn btn-light">
+                        <img height="50rem"  src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT7neF7O42RGwWGTV2P2ril_dP-jYygRhNvqA&usqp=CAU" 
+                        alt="BMS logo">
+                        <div class="name d-flex flex-column p-0">
+                            <h5>bookMyShow</h5>
+                            <span class="m-0 text-info">save upto 15%</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="slide-btn">
+                    <div class="btn btn-light">
+                        <img height="40rem" width="50rem" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSu415RnlUVDnaHJUHhNvt44NsHW8PLAlFdsA&usqp=CAU" 
+                        alt="Myntra logo">
+                        <div class="name d-flex flex-column p-0">
+                            <h5>Myntra</h5>
+                            <span class="m-0 text-info">save upto 15%</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="slide-btn">
+                    <div class="btn btn-light">
+                        <img height="50rem" width="50rem" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ0wFgdFnnn-wx6Rnlso3G94Twd3j5tHvfUkA&usqp=CAU" 
+                        alt="BB logo">
+                        <div class="name d-flex flex-column p-0">
+                            <h5>Big Basket</h5>
+                            <span class="m-0 text-info">save upto 15%</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="slide-btn">
+                    <div class="btn btn-light">
+                        <img height="50rem" width="60rem" src="data:image/jpeg;base64,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" 
+                        alt="Flipkart logo">
+                        <div class="name d-flex flex-column p-0">
+                            <h5>zivame</h5>
+                            <span class="m-0 text-info">save upto 15%</span>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+            
+
+        </div>
+
+        <div class="pictures bg-light bg-opacity-10 d-flex flex-column w-100" >
+            <h2 class="d-flex justify-content-center" data-aos="fade-in">How to Earn?</h2>
+
+            <div class="row d-flex justify-content-center align-content-center">
+
+                <div class="col-md-3 row2">
+                    <img class="image img1" data-aos="fade-in" src="https://dvh1deh6tagwk.cloudfront.net/finder-us/wp-uploads/2017/04/OnlineShopping-FeaturedImage-Spring2018.jpg" alt="Get">
+                    <div class="subtext" data-aos="zoom-in">
+                        <h3>1. Spend Through PayNav</h3>
+                        <p class=" opacity-75" >
+                            More than just shopping, you can earn gold ordering food delivery, riding in an Uber and playing games.
+                        </p>
+                    </div>
+                </div>
+                
+                <div class=" col-md-3 mt-3" >
+                    <img class="image img2" data-aos="zoom-in" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT2sAK13nzQDBNC_KxoWe8QINJhz6Pbb42vJw&usqp=CAU" alt="spend">
+                    <div class="subtext1" data-aos="zoom-in">
+                        <h3>2. Get Gold Back</h3>
+                        <p class="opacity-75" >
+                            On every spent amount you get a mentioned percentage % of amount back as digital GOLD.
+                        </p>
+                    </div>
+                </div>
+                
+                <div class="col-md-3 row2">
+                    <img class="image img3" data-aos="fade-in" src="https://img.freepik.com/premium-photo/3d-render-business-man-bar-graph-business-online-mobile-ecommerce_387680-1265.jpg?w=2000" alt="Create">
+                    <div class="subtext"data-aos="zoom-in">
+                        <h3>3. Creates Investment Portfolio</h3>
+                        <p class=" opacity-75" >
+                            The gold rewards will be added automatically in your investment portfolio. Redeem it gold coin or cash worth the gold
+                        </p>
+                    </div>
+                </div>
+                
+            </div>
+            
+        </div>
+
+
+
+        <div class="save d-flex flex-column justify-content-center align-items-center mt-3">
+            <h3 class="text-info">Save</h3>
+
+            <h1 data-aos="fade-up">
+                Saving is Simple Here
+            </h1>
+
+            <div class="row mt-5 ">
+                <div class="col-md-6 text-row">
+                    <h1 class="w-50" data-aos="fade-down">
+                        Auto Invest Spare Change
+                    </h1>
+                    <p class="w-75 opacity-50" data-aos="zoom-in">
+                        Shop any where using UPI or Cards, we read your shopping sms and we round up the spare change and invest in 24K pure GOLD portfolio, which is a Safe Haven, yielding upto 16*% average Annualized returns from past 5 years.
+                    </p>
+                </div>
+
+                <div class="col-md-6 d-flex justify-content-center flex-column">
+    
+                    <div class="row justify-content-start" data-aos="zoom-in">
+                        <div class="d-flex justify-content-start" >
+                            spend
+                        </div> 
+                        <img class="save-Img" src="./images/spend.png" alt="">
+                    </div>
+                    <div class="row justify-content-center" data-aos="zoom-in">
+                        <div class ="d-flex justify-content-center" >round up spare change</div>
+                        <img class="save-Img" src="./images/notify.png" alt="">
+                    </div>
+                    <div class="row justify-content-end" data-aos="zoom-in">
+                        <div class="d-flex justify-content-end"> auto invest </div>
+                        <img class="save-Img" src="./images/wallet.png" alt="">
+                    </div>
+                </div>
+            </div>
+        
+        </div>
+        <br>
+        <br>
+
+        <div class="section">
+
+        
+           
+
+            <div class="row mt-lg-5">
+                
+                <div class="col-md-3 mx-5 d-flex flex-column justify-content-center align-content-center" data-aos="fade-down" data-aos-anchor-placement="top-bottom">
+                    <img width="200px" src="./images/laptop.png" alt="laptop">
+                </div>
+
+                <div class="col-md-6 text-row">
+                    <h1 class="w-75" data-aos="fade-down" data-aos-anchor-placement="center-bottom">
+                        Achieve major & Meaningful goals
+                    </h1>
+                    <p class="w-75 " data-aos="fade-up" data-aos-anchor-placement="center-bottom">
+                       <span class="gold-text opacity-100">Save as low as 10 every day </span> 
+                       <span class="opacity-50">
+                        and upto 2000. Save for goals like a phone, jewellery, education, bike, marriage or a vacation. 
+                        Investing is one of the most effective ways to build wealth, and contrary to popular belief, you don't need a lot of money to get started with PayNav. 
+                        In Digital GOLD you get upto 9-11*% annualised returns and perfectly safe unlike other volatile investments.
+                       </span> 
+                    </p>
+                </div>
+
+                <div class="larger col-md-2  d-flex justify-content-center flex-column" data-aos="fade-down" data-aos-anchor-placement="center-bottom">
+                    <!-- <img class="save-Img img5" src="./images/grad.png" alt=""> -->
+                    <div class="row justify-content-start ">
+                        <img class="save-Img mt-5" src="./images/phoneInHand.png" alt="">
+                    </div>
+                    <div class="row justify-content-start mt-lg-5">
+                        <img class="save-Img  mt-5" src="./images/handshake.png" alt="">
+                    </div>
+                   
+
+                </div>
+                
+            </div>
+        
+        
+        </div>
+        
+
+
+    </div>
+
+
+   
+    <!-- JavaScript Bundle with Popper -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js" 
+integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8" 
+crossorigin="anonymous"></script>
+
+<script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+  <script>
+    AOS.init({
+    offset: 10, // offset (in px) from the original trigger point
+  delay: 0, // values from 0 to 3000, with step 50ms
+  duration: 2000, // values from 0 to 3000, with step 50ms
+     easing: 'ease', // default easing for AOS animations
+     anchorPlacement: 'bottom-bottom', // defines which position of the element regarding to window should trigger the animation
+    });
+    
+  </script>
+
+</body>
+</html>
