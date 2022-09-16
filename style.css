@@ -141,7 +141,7 @@ body{
 } */
 
  /* Medium devices (tablets, 768px and up) */
-@media (min-width: 768px) { 
+@media (max-width: 1199px) { 
     .row2{
         margin-top: 7rem;
     }
@@ -177,6 +177,10 @@ body{
        justify-content: center;
        align-items: center;
        width: 25rem;
+    }
+    .image{
+        width: 10rem;
+        height: 10rem;
     }
     .text-row{
         display: flex;
